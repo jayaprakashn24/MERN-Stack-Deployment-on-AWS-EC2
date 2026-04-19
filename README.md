@@ -3,7 +3,7 @@
 ```
 
 User → Nginx (Port 80)
-├── React Frontend (Static Build)
+├── React Frontend (Port 3000)
 └── /api → Node.js Backend (Port 5000)
 └── MongoDB Database
 
@@ -19,6 +19,8 @@ User → Nginx (Port 80)
   - `80` (HTTP)
   - `443` (HTTPS)
   - `5000` (Backend)
+  - `3000` (frontend)
+
 
 ### Connect to server
 ```bash
