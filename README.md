@@ -14,7 +14,7 @@ User → Nginx (Port 80)
 ## 🖥️ 1. EC2 Instance Setup
 
 - Launch Ubuntu EC2 instance
-- Configure Security Group:
+- Configure Security Group-
   - `22` (SSH)
   - `80` (HTTP)
   - `443` (HTTPS)
